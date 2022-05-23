@@ -1,7 +1,9 @@
 /******************TAG EDITOR******************/
 
 body {
-  background-color: #541690;
+  background-color: #92B4EC;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
@@ -12,49 +14,51 @@ hr {
 }
 
 h1 {
-  color: #FF4949;
+  color: #FFFFFF;
   font-family: "Sacramento";
-  font-size: 80px;
+  font-size: 400%;
 }
 
 h2 {
-  color: #FF8D29;
+  color: #FFE69A;
   font-family: "LEMON MILK";
   font-size: 40px;
 }
 
 h3 {
-  color: #FF8D29;
+  color: #FFE69A;
   font-family: "LEMON MILK";
   font-size: 40px;
 }
 
 p {
   font-family: "Mouser";
-  color: #FFCD38;
+  color: #FFD24C;
+  font-size: 20px;
 }
 
 table {
   font-family: "Poppins";
-  color: #FFCD38;
+  color: #FFD24C;
   font-size: 25px;
 }
 
 ol {
   font-family: "Poppins";
-  color: #FFCD38;
+  color: #FFD24C;
   font-size: 25px;
 }
 
 ul {
   font-family: "Poppins";
-  color: #FFCD38;
+  color: #FFD24C;
   font-size: 25px;
 }
 
 a {
-  color: #FF4949;
+  color: #FFFFFF;
   font-size: 25px;
+  font-family: "Market Deco";
 }
 
 /******************CLASS EDITOR******************/
@@ -67,4 +71,38 @@ a {
 .about {
   font-family: "Gotham Black";
   font-size: 30px;
+}
+
+.contact{
+  color: white;
+  font-size: 25px;
+  font-family: "Mouser";
+}
+
+.mail {
+  width: 20%;
+  height: 70px;
+  font-size: 40px;
+  font-family: "Le chant des Albatros";
+  color: #FFD24C;
+  background-color: #FFE69A;
+}
+
+.top {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://cdn.discordapp.com/attachments/942840658727669845/978402331236393001/top.png");
+}
+
+.shreyansh {
+  width: 30%;
+  height: 70px;
+  background-color: white ;
+}
+
+.navigation {
+  width: 100%;
+  height: 70px;
+  background-color: white ;
+  transition: 0.3s ease-in;
 }
